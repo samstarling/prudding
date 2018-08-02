@@ -14,8 +14,6 @@ class Prudding
   ING_WORD = /(.*)(ing)(.*)$/i
 
   def process(word)
-    return word 
-
     if (match = word.match(PLE_WORD))
       captures = match.captures.clone
       captures[1] = 're'
