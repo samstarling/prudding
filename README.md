@@ -9,6 +9,6 @@ And then:
 ```ruby
 require 'prudding'
 
-p "Hello pudding".pudding
+p "Hello pudding".prudding
 => "Hello prudding"
 ```
